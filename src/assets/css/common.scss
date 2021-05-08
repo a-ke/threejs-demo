@@ -1,0 +1,23 @@
+* {
+	box-sizing: border-box;
+}
+html,
+body {
+	height: 100%;
+	min-width: 1240px;
+	min-height: 650px;
+	font-family: 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei',
+		'微软雅黑', Arial, sans-serif;
+	overflow: auto;
+}
+body {
+	font-size: 14px;
+	color: #333;
+}
+
+.bounce-enter-active {
+	animation: bounceInUp 0.5s;
+}
+.bounce-leave-active {
+	animation: bounceOutDown 0.5s;
+}
